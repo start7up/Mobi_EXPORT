@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADI ELECTRONICS | AI-Powered Gadget Store</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-4 md:p-12">
+    
+    <main id="app-container" class="max-w-7xl mx-auto relative z-10" style="display: none;">
+        <!-- PRELOADER START -->
+        <div id="preloader" class="fixed inset-0 flex items-center justify-center bg-bg-dark z-50">
+            <div class="text-center">
+                <svg class="spinner h-12 w-12 text-magenta-400 mx-auto" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+                <p class="mt-4 text-lg text-gray-300">Загрузка AI-ассистента...</p>
+            </div>
+        </div>
+        <!-- PRELOADER END -->
+
+        <header class="mb-12 text-center md:text-left">
+            <h1 class="text-5xl md:text-6xl font-extrabold text-gray-50 tracking-tight">MADI ELECTRONICS <span class="text-magenta-400 text-glow-magenta">AI</span></h1>
+            <p class="text-lg text-gray-400 mt-3 max-w-4xl mx-auto md:mx-0">AI-ассистент для выбора гаджетов. Контакты для заказа: +7 (701) 222 66 21</p>
+        </header>
+
+        <div id="category-filters" class="mb-8 overflow-x-auto whitespace-nowrap py-2 border-b border-gray-700">
+            <!-- Категории будут вставлены сюда -->
+        </div>
+
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+            <!-- Карточки товаров будут вставлены сюда -->
+        </div>
+    </main>
+
+    <!-- Модальное окно для AI контента -->
+    <div id="ai-modal" class="modal-backdrop" style="display: none;">
+        <div class="modal-content">
+            <button id="ai-modal-close-btn" class="modal-close-btn">
+                <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <h3 id="ai-modal-title" class="text-2xl font-bold text-gray-50 mb-6"></h3>
+            <div id="ai-modal-body" class="transition-all duration-300 flex items-center justify-center">
+                <!-- AI контент будет здесь -->
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Chat Widget -->
+    <button id="chat-fab" class="chat-fab" aria-label="Открыть чат с AI-консультантом">
+        <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 0 24 24" width="28px" fill="white"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"></path></svg>
+    </button>
+    
+    <div id="chat-widget" class="chat-widget">
+        <div class="chat-header">
+            <h3>AI Консультант</h3>
+            <button id="chat-close-btn" class="close-btn">&times;</button>
+        </div>
+        <div id="chat-messages" class="chat-messages">
+            <!-- Сообщения чата будут здесь -->
+        </div>
+        <div class="chat-footer">
+            <form id="chat-form">
+                <input id="chat-input" type="text" placeholder="Спросите что-нибудь..." autocomplete="off">
+                <button type="submit">
+                   <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="white"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M3.4 20.4l17.45-7.48c.81-.35.81-1.49 0-1.84L3.4 3.6c-.66-.29-1.39.2-1.39.91L2 9.12c0 .5.37.93.87.99L17 12 2.87 13.88c-.5.07-.87.5-.87 1l.01 4.61c0 .71.73 1.2 1.39.91z"></path></svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

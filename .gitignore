@@ -1,0 +1,21 @@
+# Папки с зависимостями (их не нужно хранить в Git)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Папка с результатом сборки клиентского приложения
+client/dist/
+
+# Секретные файлы с ключами API и другими переменными
+.env
+.env.*
+!.env.example
+
+# Логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Настройки редакторов кода
+.idea/
+.vscode/

@@ -1,0 +1,390 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "category": "УМНЫЕ ОЧКИ",
+        "name": "Ray-Ban Meta Wayfarer (4006)",
+        "variant": "Green",
+        "priceUSD": 430,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Стильные очки с камерой и динамиками.",
+        "image": "https://placehold.co/600x400/1e1b4b/f472b6?text=META+WAYFARER"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "category": "УМНЫЕ ОЧКИ",
+        "name": "Ray-Ban Meta Skyler (4008)",
+        "variant": "Black",
+        "priceUSD": 430,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Стильные очки с камерой и динамиками.",
+        "image": "https://placehold.co/600x400/1e1b4b/f472b6?text=META+SKYLER"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "category": "УМНЫЕ ОЧКИ",
+        "name": "Ray-Ban Meta Gen 2 (4012)",
+        "variant": "Green",
+        "priceUSD": 630,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Второе поколение умных очков с улучшенной камерой.",
+        "image": "https://placehold.co/600x400/1e1b4b/f472b6?text=META+GEN+2"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "category": "УМНЫЕ ОЧКИ",
+        "name": "Ray-Ban Meta Gen 2 Transitions",
+        "variant": "UV-Active",
+        "priceUSD": 720,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Линзы, адаптирующиеся к освещению.",
+        "image": "https://placehold.co/600x400/1e1b4b/f472b6?text=META+TRANSITIONS"
+      }
+    },
+    {
+      "id": 25,
+      "attributes": {
+        "category": "УМНЫЕ ОЧКИ",
+        "name": "Ray-Ban Meta Headliner (4013)",
+        "variant": "Black",
+        "priceUSD": 650,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Новый дизайн умных очков с передовыми функциями.",
+        "image": "https://placehold.co/600x400/1e1b4b/f472b6?text=META+HEADLINER"
+      }
+    },
+    {
+      "id": 26,
+      "attributes": {
+        "category": "УМНЫЕ ОЧКИ",
+        "name": "Oakley Meta Limited Edition",
+        "variant": "Yellow",
+        "priceUSD": 780,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Спортивный стиль Oakley в сочетании с технологиями Meta.",
+        "image": "https://placehold.co/600x400/1e1b4b/f472b6?text=OAKLEY+META+LE"
+      }
+    },
+    {
+      "id": 27,
+      "attributes": {
+        "category": "УМНЫЕ ОЧКИ",
+        "name": "Oakley Meta Prizm",
+        "variant": "Black",
+        "priceUSD": 720,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Технология линз Prizm для непревзойденной четкости.",
+        "image": "https://placehold.co/600x400/1e1b4b/f472b6?text=OAKLEY+PRIZM+BLK"
+      }
+    },
+    {
+      "id": 28,
+      "attributes": {
+        "category": "УМНЫЕ ОЧКИ",
+        "name": "Oakley Meta Prizm",
+        "variant": "White",
+        "priceUSD": 720,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Технология линз Prizm для непревзойденной четкости.",
+        "image": "https://placehold.co/600x400/1e1b4b/f472b6?text=OAKLEY+PRIZM+WHT"
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "category": "APPLE",
+        "name": "MacBook Air 15\" M3",
+        "variant": "8/512GB, White",
+        "priceUSD": 990,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Ультралегкий и мощный ноутбук на чипе M3.",
+        "image": "https://placehold.co/600x400/1e1b4b/f8fafc?text=MBA+M3"
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "category": "APPLE",
+        "name": "Mac mini M4",
+        "variant": "256GB",
+        "priceUSD": 680,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Компактный настольный компьютер.",
+        "image": "https://placehold.co/600x400/1e1b4b/f8fafc?text=MAC+MINI+M4"
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "category": "APPLE",
+        "name": "AirPods 4",
+        "variant": "Standard",
+        "priceUSD": 120,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Беспроводные наушники с улучшенным звуком.",
+        "image": "https://placehold.co/600x400/1e1b4b/f8fafc?text=AIRPODS+4"
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "category": "APPLE",
+        "name": "Apple Watch S10 Milanese",
+        "variant": "41mm, Silver",
+        "priceUSD": 830,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Премиум-версия часов в миланском плетении.",
+        "image": "https://placehold.co/600x400/1e1b4b/f8fafc?text=WATCH+S10"
+      }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "category": "APPLE",
+        "name": "Apple Watch S10 Milanese",
+        "variant": "45mm, Orange",
+        "priceUSD": 860,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Увеличенная версия часов в ярком цвете.",
+        "image": "https://placehold.co/600x400/1e1b4b/f8fafc?text=WATCH+S10+45MM"
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "category": "APPLE",
+        "name": "Apple Watch Ultra 2",
+        "variant": "Ocean Band, Black",
+        "priceUSD": 720,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Часы для экстремальных условий и приключений.",
+        "image": "https://placehold.co/600x400/1e1b4b/f8fafc?text=WATCH+ULTRA+2"
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "category": "APPLE",
+        "name": "Apple Watch Ultra 3 (Прогноз)",
+        "variant": "Black",
+        "priceUSD": 900,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": true,
+        "description": "Ожидаемое обновление самых прочных часов Apple.",
+        "image": "https://placehold.co/600x400/1e1b4b/fca5a5?text=WATCH+ULTRA+3"
+      }
+    },
+    {
+      "id": 32,
+      "attributes": {
+        "category": "APPLE",
+        "name": "Apple Watch Series 7",
+        "variant": "44mm, Green",
+        "priceUSD": null,
+        "priceKZT": 90000,
+        "currency": "KZT",
+        "isPreorder": false,
+        "description": "Проверенная временем модель по отличной цене.",
+        "image": "https://placehold.co/600x400/1e1b4b/f8fafc?text=WATCH+S7"
+      }
+    },
+    {
+      "id": 17,
+      "attributes": {
+        "category": "АКСЕССУАРЫ",
+        "name": "Plaud Note",
+        "variant": "AI диктофон, White",
+        "priceUSD": null,
+        "priceKZT": 90000,
+        "currency": "KZT",
+        "isPreorder": false,
+        "description": "Умный диктофон с функциями транскрипции и саммаризации на базе AI.",
+        "image": "https://placehold.co/600x400/1e1b4b/67e8f9?text=AI+DICTOFON"
+      }
+    },
+    {
+      "id": 18,
+      "attributes": {
+        "category": "СМАРТФОНЫ",
+        "name": "Samsung Galaxy Z Flip 7",
+        "variant": "256GB, Black (Прогноз)",
+        "priceUSD": 900,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": true,
+        "description": "Не вышедшая модель, ожидается к выходу.",
+        "image": "https://placehold.co/600x400/1e1b4b/fca5a5?text=Z+FLIP+7+PROG"
+      }
+    },
+    {
+      "id": 19,
+      "attributes": {
+        "category": "СМАРТФОНЫ",
+        "name": "Samsung Galaxy Z Fold 7",
+        "variant": "512GB, Black (Прогноз)",
+        "priceUSD": null,
+        "priceKZT": 880000,
+        "currency": "KZT",
+        "isPreorder": true,
+        "description": "Складной смартфон нового поколения.",
+        "image": "https://placehold.co/600x400/1e1b4b/fca5a5?text=Z+FOLD+7+PROG"
+      }
+    },
+    {
+      "id": 20,
+      "attributes": {
+        "category": "СМАРТФОНЫ",
+        "name": "Xiaomi Redmi A3",
+        "variant": "64GB EAC, Black",
+        "priceUSD": null,
+        "priceKZT": 30000,
+        "currency": "KZT",
+        "isPreorder": false,
+        "description": "Бюджетный смартфон с хорошей батареей.",
+        "image": "https://placehold.co/600x400/1e1b4b/9ca3af?text=XIAOMI+A3"
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "category": "СМАРТФОНЫ",
+        "name": "Google Pixel 9 Pro XL",
+        "variant": "512GB, Black (Прогноз)",
+        "priceUSD": 1100,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": true,
+        "description": "Флагманский камерофон на чистом Android.",
+        "image": "https://placehold.co/600x400/1e1b4b/fca5a5?text=PIXEL+9+PRO+XL+PROG"
+      }
+    },
+    {
+      "id": 23,
+      "attributes": {
+        "category": "НОСИМЫЕ",
+        "name": "Garmin Fenix 8",
+        "variant": "51mm Amoled, Black",
+        "priceUSD": 1050,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Премиум-часы для мультиспорта с AMOLED экраном.",
+        "image": "https://placehold.co/600x400/1e1b4b/34d399?text=GARMIN+FENIX+8"
+      }
+    },
+    {
+      "id": 24,
+      "attributes": {
+        "category": "НОСИМЫЕ",
+        "name": "Oura Ring 3",
+        "variant": "Size 6, Mix Color",
+        "priceUSD": 400,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Умное кольцо для отслеживания сна и активности.",
+        "image": "https://placehold.co/600x400/1e1b4b/34d399?text=OURA+RING+3"
+      }
+    },
+    {
+      "id": 33,
+      "attributes": {
+        "category": "НОСИМЫЕ",
+        "name": "Samsung Watch Ultra",
+        "variant": "Orange",
+        "priceUSD": null,
+        "priceKZT": 165000,
+        "currency": "KZT",
+        "isPreorder": false,
+        "description": "Флагманские часы от Samsung для активного образа жизни.",
+        "image": "https://placehold.co/600x400/1e1b4b/34d399?text=SAMSUNG+WATCH"
+      }
+    },
+    {
+      "id": 34,
+      "attributes": {
+        "category": "ДРОНЫ",
+        "name": "DJI Mini 5 Pro (Прогноз)",
+        "variant": "Fly More Combo",
+        "priceUSD": 1180,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": true,
+        "description": "Профессиональная съемка в компактном корпусе.",
+        "image": "https://placehold.co/600x400/1e1b4b/fca5a5?text=DJI+MINI+5+PRO"
+      }
+    },
+    {
+      "id": 35,
+      "attributes": {
+        "category": "СВЯЗЬ",
+        "name": "Starlink Mini",
+        "variant": "Standard",
+        "priceUSD": 370,
+        "priceKZT": null,
+        "currency": "USD",
+        "isPreorder": false,
+        "description": "Высокоскоростной интернет в любой точке мира.",
+        "image": "https://placehold.co/600x400/1e1b4b/93c5fd?text=STARLINK+MINI"
+      }
+    },
+    {
+      "id": 36,
+      "attributes": {
+        "category": "УМНЫЙ ДОМ",
+        "name": "Пылесос Dreame K10",
+        "variant": "Вертикальный",
+        "priceUSD": null,
+        "priceKZT": 65000,
+        "currency": "KZT",
+        "isPreorder": false,
+        "description": "Мощный и умный вертикальный пылесос для вашего дома.",
+        "image": "https://placehold.co/600x400/1e1b4b/a5b4fc?text=DREAME+K10"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 100,
+      "pageCount": 1,
+      "total": 33
+    }
+  }
+}
