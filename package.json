@@ -1,19 +1,29 @@
 {
-  "name": "madi-electronics-monorepo",
+  "name": "madi-electronics-backend",
   "version": "1.0.0",
-  "private": true,
-  "workspaces": [
-    "client",
-    "server"
-  ],
+  "description": "Secure backend proxy for MADI ELECTRONICS AI store.",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run dev --workspace=client\" \"npm run dev --workspace=server\"",
-    "install": "npm install --workspaces --if-present",
-    "build": "npm run build --workspace=client",
-    "start": "npm start --workspace=server",
-    "postinstall": "npm run build"
+    "start": "NODE_ENV=production node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "ai",
+    "proxy",
+    "express",
+    "gemini"
+  ],
+  "author": "AI Assistant",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "nodemon": "^3.1.4"
   }
 }
