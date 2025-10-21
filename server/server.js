@@ -130,7 +130,7 @@ if (process.env.NODE_ENV === 'production') {
     const __dirname = path.dirname(__filename);
     
     // Serve static files from the client build directory
-    const clientBuildPath = path.join(__dirname, '../../client/dist');
+    const clientBuildPath = path.join(__dirname, '../client/dist');
     app.use(express.static(clientBuildPath));
     
     // The "catchall" handler: for any request that doesn't
